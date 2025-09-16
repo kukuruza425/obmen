@@ -77,10 +77,10 @@ export default function ContactPage() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Контакты
+            Обмен USDT наличные Ярославль - Контакты
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Свяжитесь с нами удобным способом или оставьте заявку на обмен
+            Где продать USDT за рубли в Ярославле? Свяжитесь с криптовалютным обменником или оставьте заявку на обмен USDT
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export default function ContactPage() {
             <Card className="shadow-xl border-0">
               <CardHeader className="bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-t-lg">
                 <CardTitle className="text-2xl text-center">
-                  Оставить заявку на обмен
+                  Заявка на обмен криптовалют наличными
                 </CardTitle>
               </CardHeader>
               <CardContent className="p-8">
@@ -124,7 +124,7 @@ export default function ContactPage() {
                     <Label htmlFor="amount">Сумма обмена</Label>
                     <Input
                       id="amount"
-                      placeholder="Например: 100 USDT или 10000 рублей"
+                      placeholder="Продать USDT: 100 USDT или купить за 10000 рублей"
                       value={formData.amount}
                       onChange={(e) => handleInputChange('amount', e.target.value)}
                       className="py-3"
@@ -135,7 +135,7 @@ export default function ContactPage() {
                     <Label htmlFor="comment">Комментарий</Label>
                     <Textarea
                       id="comment"
-                      placeholder="Укажите предпочтения: офис/курьер, время встречи, особые пожелания"
+                      placeholder="Обмен в офисе или курьер для обмена криптовалюты, время встречи, особые пожелания"
                       value={formData.comment}
                       onChange={(e) => handleInputChange('comment', e.target.value)}
                       rows={4}

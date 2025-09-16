@@ -10,8 +10,8 @@ export function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            Обмен <span className="text-blue-600">USDT</span> ↔{' '}
-            <span className="text-green-600">Наличные рубли</span>
+            <span className="text-blue-600">Обмен USDT</span> на{' '}
+            <span className="text-green-600">наличные рубли</span>
             <br />
             <span className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-700">
               в Ярославле
@@ -19,22 +19,22 @@ export function Hero() {
           </h1>
           
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Два офиса — ул. Титова, 20 и Корабельная ул., 1с9. 
-            Курьер приедет в любую точку города.
+            Криптовалютный обменник с офисами на ул. Титова, 20 и Корабельная ул., 1с9. 
+            Продать USDT за наличные или купить криптовалюту за рубли. Курьер для обмена USDT по всему городу.
           </p>
 
           <div className="flex flex-wrap justify-center items-center gap-4 mb-10">
             <div className="flex items-center space-x-2 bg-white px-4 py-2 rounded-full shadow-sm">
               <Clock className="w-5 h-5 text-blue-600" />
-              <span className="font-medium text-gray-800">Быстро</span>
+              <span className="font-medium text-gray-800">Обмен USDT быстро</span>
             </div>
             <div className="flex items-center space-x-2 bg-white px-4 py-2 rounded-full shadow-sm">
               <Eye className="w-5 h-5 text-green-600" />
-              <span className="font-medium text-gray-800">Прозрачно</span>
+              <span className="font-medium text-gray-800">Выгодный курс обмена</span>
             </div>
             <div className="flex items-center space-x-2 bg-white px-4 py-2 rounded-full shadow-sm">
               <Shield className="w-5 h-5 text-purple-600" />
-              <span className="font-medium text-gray-800">Конфиденциально</span>
+              <span className="font-medium text-gray-800">Безопасный обмен</span>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ export function Hero() {
           </div>
 
           <p className="text-sm text-gray-500 mt-6">
-            *Прозрачные курсы. Оперативная связь. Без скрытых комиссий.
+            *Лучший курс обмена USDT в Ярославле. Обмен криптовалют без комиссии. Проверенный обменник.
           </p>
         </div>
       </div>

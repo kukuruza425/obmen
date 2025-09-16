@@ -42,10 +42,10 @@ export default function RatesPage() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Актуальные курсы и калькулятор
+            Курс обмена USDT сегодня и калькулятор
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Рассчитайте точную сумму обмена и оставьте заявку
+            Какой курс обмена USDT сегодня? Рассчитайте выгодный курс обмена и оставьте заявку на продажу USDT за наличные
           </p>
         </div>
 
@@ -66,11 +66,11 @@ export default function RatesPage() {
               <p className="text-gray-600 mb-4">за 1 USDT</p>
               <div className="flex items-center justify-center space-x-1 text-green-600 mb-2">
                 <TrendingUp className="w-4 h-4" />
-                <span className="text-sm font-medium">Выгодно продать</span>
+                <span className="text-sm font-medium">Продать USDT за наличные</span>
               </div>
               <div className="flex items-center justify-center space-x-2 text-gray-500 text-xs">
                 <Clock className="w-3 h-3" />
-                <span>Обновлено: {rates.lastUpdate}</span>
+                <span>Курс доллара USDT: {rates.lastUpdate}</span>
               </div>
             </CardContent>
           </Card>
@@ -90,11 +90,11 @@ export default function RatesPage() {
               <p className="text-gray-600 mb-4">за 1 USDT</p>
               <div className="flex items-center justify-center space-x-1 text-blue-600 mb-2">
                 <TrendingUp className="w-4 h-4" />
-                <span className="text-sm font-medium">Выгодно купить</span>
+                <span className="text-sm font-medium">Купить USDT за рубли</span>
               </div>
               <div className="flex items-center justify-center space-x-2 text-gray-500 text-xs">
                 <Clock className="w-3 h-3" />
-                <span>Обновлено: {rates.lastUpdate}</span>
+                <span>Курс доллара USDT: {rates.lastUpdate}</span>
               </div>
             </CardContent>
           </Card>

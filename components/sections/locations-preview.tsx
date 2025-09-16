@@ -26,10 +26,10 @@ export function LocationsPreview() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Офисы и курьер
+            Офис обмена USDT Ярославль и курьер
           </h2>
           <p className="text-xl text-gray-600">
-            Встретимся в удобном для вас месте
+            Где купить USDT за рубли или продать криптовалюту за наличные в удобном месте
           </p>
         </div>
 
@@ -66,16 +66,16 @@ export function LocationsPreview() {
             <CardHeader>
               <CardTitle className="flex items-center space-x-2">
                 <Truck className="w-5 h-5 text-purple-600" />
-                <span>Курьер по Ярославлю</span>
+                <span>Курьер для обмена криптовалюты</span>
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-gray-700">
-                Приедем в любую точку города в удобное для вас время
+                Курьер обмен USDT: приедем в любую точку Ярославля для обмена криптовалют наличными
               </p>
               <div className="space-y-2 text-sm text-gray-600">
                 <div>• Время выезда: 30-60 минут</div>
-                <div>• Работаем: 9:00-22:00</div>
+                <div>• Обмен USDT круглосуточно: 9:00-22:00</div>
                 <div>• Минимальная сумма: уточняйте</div>
               </div>
               <div className="pt-4">

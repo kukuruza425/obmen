@@ -61,10 +61,10 @@ export default function HowItWorksPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Как проходит обмен USDT
+            Как обменять USDT в Ярославле безопасно
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            Простой и прозрачный процесс в 4 шага — от заявки до получения средств
+            Как работает криптообмен Ярославль: безопасный обмен криптовалюты в 4 шага — от заявки до получения наличных рублей
           </p>
           
           {/* Преимущества */}

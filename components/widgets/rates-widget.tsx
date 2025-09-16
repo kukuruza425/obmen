@@ -12,11 +12,11 @@ export function RatesWidget() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Курсы сегодня
+            Актуальный курс обмена USDT сегодня
           </h2>
           <div className="flex items-center justify-center space-x-2 text-gray-500">
             <Clock className="w-4 h-4" />
-            <span className="text-sm">Последнее обновление: {rates.lastUpdate}</span>
+            <span className="text-sm">Курс доллара USDT обновлен: {rates.lastUpdate}</span>
           </div>
         </div>
 
@@ -36,7 +36,7 @@ export function RatesWidget() {
               <p className="text-gray-600">за 1 USDT</p>
               <div className="mt-4 flex items-center justify-center space-x-1 text-green-600">
                 <TrendingUp className="w-4 h-4" />
-                <span className="text-sm font-medium">Выгодно продать</span>
+                <span className="text-sm font-medium">Продать USDT за наличные</span>
               </div>
             </CardContent>
           </Card>
@@ -56,7 +56,7 @@ export function RatesWidget() {
               <p className="text-gray-600">за 1 USDT</p>
               <div className="mt-4 flex items-center justify-center space-x-1 text-blue-600">
                 <TrendingUp className="w-4 h-4" />
-                <span className="text-sm font-medium">Выгодно купить</span>
+                <span className="text-sm font-medium">Купить USDT за рубли</span>
               </div>
             </CardContent>
           </Card>
@@ -64,8 +64,8 @@ export function RatesWidget() {
 
         <div className="text-center mt-8">
           <p className="text-sm text-gray-500 max-w-2xl mx-auto">
-            Курс фиксируется в момент подтверждения сделки менеджером. 
-            Актуальный курс уточняйте при оформлении заявки.
+            Какой курс обмена USDT сегодня? Курс фиксируется при подтверждении сделки. 
+            Мгновенный перевод USDT и быстрые сделки криптовалюта в нашем офисе криптообмена.
           </p>
         </div>
       </div>

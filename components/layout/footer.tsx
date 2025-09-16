@@ -19,11 +19,11 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <ArrowLogo />
-              <span className="font-bold text-xl">Криптообмен Ярославль</span>
+              <span className="font-bold text-xl">Обмен USDT Ярославль</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
-              Быстрый и безопасный обмен USDT на наличные рубли в Ярославле. 
-              Два офиса и курьерская служба по всему городу.
+              Криптовалютный обменник: безопасный обмен USDT на наличные рубли в Ярославле. 
+              Офис обмена USDT и курьер для обмена криптовалюты по всему городу.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Button className="bg-blue-600 hover:bg-blue-700" asChild>

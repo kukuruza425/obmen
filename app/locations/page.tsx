@@ -33,10 +33,10 @@ export default function LocationsPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Офисы и курьер
+            Офис обмена USDT Ярославль и курьер
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Встретимся в удобном для вас месте: в наших офисах или где угодно в городе
+            Где купить USDT за рубли или продать криптовалюту за наличные: офисы криптообмена или курьер по городу
           </p>
         </div>
 
@@ -87,12 +87,12 @@ export default function LocationsPage() {
             <CardHeader className="text-center">
               <CardTitle className="flex items-center justify-center space-x-2 text-2xl">
                 <Truck className="w-7 h-7 text-purple-600" />
-                <span>Курьер по Ярославлю</span>
+                <span>Курьер для обмена криптовалюты</span>
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
               <p className="text-center text-gray-700 text-lg">
-                Не можете приехать в офис? Наш курьер доставит или заберёт средства в любой точке города
+                Курьер обмен USDT: не можете приехать в офис криптообмена? Наш курьер для обмена криптовалюты приедет в любую точку города
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">

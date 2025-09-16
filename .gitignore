@@ -10,7 +10,8 @@
 
 # next.js
 /.next/
-/out/
+# Убираем /out/ из .gitignore, чтобы папка попадала в Git
+# /out/
 
 # production
 /build
@@ -25,7 +26,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env
 .env*.local
 
 # vercel

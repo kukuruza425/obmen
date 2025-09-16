@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Основные страницы для индексации
+Allow: /rates
+Allow: /how-it-works
+Allow: /locations
+Allow: /contact
+Allow: /faq
+
+# Запрещаем индексацию служебных страниц
+Disallow: /terms
+Disallow: /privacy-policy
+
+# Указываем расположение карты сайта
+Sitemap: https://obmen76.online/sitemap.xml
+
+# Время задержки между запросами (в секундах)
+Crawl-delay: 1
